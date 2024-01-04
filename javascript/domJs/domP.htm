@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="one"><span>namaste</span>Hello</p>
+  <ul>
+    <li classs="tech">Hiii</li>
+    <li class="tech">Hurry</li>
+    <li class="tech">what is happen !</li>
+  </ul>
+
+  <!-- tagName -->
+<h4>hey</h4>
+<h4>namaste</h4>
+<h4>Hola</h4>
+
+    <script>
+
+let var1 = document.getElementById("one");
+// console.log(var1);
+console.log(var1.innerText);
+
+let var2 = document.getElementsByClassName("tech")
+console.log(var2);
+
+let var3 = document.getElementsByTagName("h4");
+console.log(var3[2].innerText);
+var3[2].innerHTML = "hello everyone";
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+    border: 1px solid red;
+    
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    background-color: rgb(18, 155, 155); 
+    padding: 11px 20px;
+    cursor: pointer;
+    /* color: white; */
+ border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    width: fit-content;
+  }

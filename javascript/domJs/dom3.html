@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom part 3</title>
+</head>
+<body>
+
+    <!-- normal HTML -->
+    <h1>Hello friends - I am Rahul</h1>
+    <p id="js"></p>
+
+    <button onclick="hey()" id="jss">Submit</button>
+    <!-- javascript -->
+    <script>
+        document.addEventListener("mouseenter" ,good) ;
+ function good(){
+    document.getElementById("js").innerText = "WARM WELCOME";
+}
+    function hey(){
+        document.getElementById("jss").innerText = "jai shree Ram";
+        document.getElementById("jss").style.color = "red";
+        document.getElementById("jss").style.backgroundColor = "black";
+        document.getElementById("jss").style.padding = "16px";
+        document.getElementById("jss").style.border = "2px solid yellow";
+ }
+ </script>
+</body>
+</html>
